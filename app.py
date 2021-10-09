@@ -1,7 +1,6 @@
 ################################
 #   Oscilloscope Data Logger   #
-# Written by Krishna Chaitanya #
-#         Loh Lab 2021         #
+# Written by ykrischait - 2021 #
 ################################
 
 # Importing Packages 
@@ -64,10 +63,6 @@ file.close()
 
 #Plotting all data
 time_axis = np.linspace(0,loop_counter*time_scale,len(volts1))
-
-#Storing Data in a CSV file after all data is logged#
-# df = pd.DataFrame(np.hstack((time_axis[:,None], volts1[:,None], volts2[:,None], volts3[:,None], volts4[:,None])))
-# df.to_csv(filepath)
 
 plt.plot(time_axis,volts1)
 plt.plot(time_axis,volts2)
