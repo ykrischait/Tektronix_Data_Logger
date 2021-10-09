@@ -3,7 +3,7 @@ from parameters import *
 import matplotlib.pyplot as plt 
 import numpy as np
 df = pd.read_csv(Data_FilePath+'\\'+Data_FileName,delimiter=',',header=None)
-df.columns=['Index','Time','Ch1','Ch2','Ch3','Ch4']
+df.columns=['Index','Time','Ch1','Ch2','Ch3','Ch4'] 
 # plt.plot()
 # print(df.head())
 df=df.astype(float)

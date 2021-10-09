@@ -1,4 +1,3 @@
-# Oscilloscope Class written by Krishna 2021 based on Old Code in Z drive#
 import pyvisa as visa 
 import numpy as np
 import struct
@@ -7,7 +6,7 @@ from parameters import *
 
 class Oscilloscope():
     """
-    Oscilloscope Class running on TekVISA
+    Oscilloscope Class for Data Retrieval
     """
     def __init__(self):
         visa_addr = visa_address
